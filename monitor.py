@@ -137,12 +137,17 @@ Disk: {disk} %
                 "disk": disk
             }
 
+            row_json = {
+                **row,
+                "top_processes": top_processes
+            }
+
             if LOG_FORMAT == "txt":
                 log_txt(str(row))
             elif LOG_FORMAT == "csv":
                 log_csv(row)
             else:
-                log_json(row)
+                log_json(row_json)
 
             time.sleep(INTERVAL)
 

@@ -21,3 +21,61 @@ A Python-based Linux system monitoring tool that tracks CPU, memory, and disk us
 Activate virtual environment:
 ```bash
 source venv/bin/activate
+pip install -r requirements.txt
+python monitor.py // run
+```
+## 🖥️ Next.js UI
+
+A dashboard has been added with a proper Next.js interface that reads `system_logs.json`.
+
+Install UI dependencies and run the frontend:
+```bash
+npm install
+npm run dev
+```
+
+Open the dashboard at `http://localhost:3000`.
+
+The Python monitor and the Next.js UI run separately: start the monitor first, then open the dashboard.
+## 🚀 Deployment Options
+
+### 1. Docker Container
+Run the monitor in an isolated Docker container.
+```bash
+# Build the image
+docker build -t linux-system-monitor .
+
+# Run the container (needs privileged access to read host metrics)
+docker run -d --name system-monitor --pid=host --privileged linux-system-monitor
+```
+
+### 2. Standalone Binary (PyInstaller)
+Compile the script into a single executable that doesn't require Python to be installed.
+```bash
+# Install PyInstaller
+pip install pyinstaller
+
+# Build the executable
+pyinstaller --onefile monitor.py
+
+# Run the generated binary
+./dist/monitor
+```
+
+### 3. Background Service (Systemd on Linux)
+Run the monitor continuously as a background service.
+```bash
+# 1. Copy the script to a stable location
+sudo mkdir -p /opt/linux-system-monitor
+sudo cp monitor.py /opt/linux-system-monitor/
+
+# 2. Copy the service file to systemd
+sudo cp monitor.service /etc/systemd/system/
+
+# 3. Reload systemd and start the service
+sudo systemctl daemon-reload
+sudo systemctl enable monitor --now
+
+# 4. Check status
+sudo systemctl status monitor
+```

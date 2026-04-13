@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: Inter, system-ui, sans-serif;
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+main {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 40px 0 80px;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+}
+
+.card-grid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  margin-top: 28px;
+}
+
+.card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.15);
+}
+
+.metric-name {
+  font-size: 0.9rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 10px;
+}
+
+.metric-value {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
+}
+
+.bar {
+  height: 12px;
+  background: #1e293b;
+  border-radius: 999px;
+  overflow: hidden;
+  margin-top: 16px;
+}
+
+.bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #38bdf8 0%, #818cf8 100%);
+}
+
+.section-title {
+  margin: 0 0 18px;
+  font-size: 1.3rem;
+}
+
+.process-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.process-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  padding: 14px 0;
+  border-bottom: 1px solid #1f2937;
+}
+
+.process-item:last-child {
+  border-bottom: none;
+}
+
+.process-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.process-name {
+  font-weight: 600;
+}
+
+.small-text {
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+.status-pill {
+  background: #1f2937;
+  color: #e2e8f0;
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.button {
+  border: 1px solid #334155;
+  background: #1f2937;
+  color: #e2e8f0;
+  padding: 12px 18px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.button:hover {
+  background: #334155;
+}
+
+.footer {
+  margin-top: 40px;
+  color: #94a3b8;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 640px) {
+  main {
+    padding: 24px 0 60px;
+  }
+}
