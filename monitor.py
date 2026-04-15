@@ -9,7 +9,7 @@ from datetime import datetime
 parser = argparse.ArgumentParser(description="Linux System Monitor")
 parser.add_argument("--interval", type=int, default=5, help="Monitoring interval in seconds")
 parser.add_argument("--threshold", type=int, default=80, help="CPU alert threshold")
-parser.add_argument("--log-format", choices=["txt", "csv", "json"], default="txt",
+parser.add_argument("--log-format", choices=["txt", "csv", "json"], default="json",
                     help="Log format: txt / csv / json")
 args = parser.parse_args()
 
@@ -35,6 +35,22 @@ def get_disk_usage():
     return psutil.disk_usage('/').percent
 
 
+def get_network_usage(prev_net_io):
+    current_net_io = psutil.net_io_counters()
+    
+    if prev_net_io is None:
+        return {"bytes_sent": 0, "bytes_recv": 0}, current_net_io
+        
+    bytes_sent = current_net_io.bytes_sent - prev_net_io.bytes_sent
+    bytes_recv = current_net_io.bytes_recv - prev_net_io.bytes_recv
+    
+    # Convert to MB/s based on interval
+    mb_sent = (bytes_sent / (1024 * 1024)) / INTERVAL
+    mb_recv = (bytes_recv / (1024 * 1024)) / INTERVAL
+    
+    return {"mb_sent": round(mb_sent, 2), "mb_recv": round(mb_recv, 2)}, current_net_io
+
+
 def get_top_processes():
     processes = []
 
@@ -46,19 +62,21 @@ def get_top_processes():
 
     time.sleep(1)
 
-    for proc in psutil.process_iter(['pid', 'name', 'cpu_percent']):
+    for proc in psutil.process_iter(['pid', 'name', 'cpu_percent', 'memory_info']):
         try:
             cpu = proc.info['cpu_percent'] or 0.0
+            mem = proc.info['memory_info'].rss / (1024 * 1024) if proc.info['memory_info'] else 0.0 # MB
             processes.append({
                 "pid": proc.info['pid'],
                 "name": proc.info['name'],
-                "cpu_percent": cpu
+                "cpu_percent": round(cpu, 1),
+                "memory_mb": round(mem, 1)
             })
         except:
             pass
 
     processes.sort(key=lambda x: x["cpu_percent"], reverse=True)
-    return processes[:5]
+    return processes[:12]
 
 
 # ---------------- LOGGING ----------------
@@ -89,6 +107,10 @@ def log_json(row):
     except:
         data = []
 
+    # Keep only last 100 entries to prevent huge file size
+    if len(data) > 100:
+        data = data[-100:]
+
     data.append(row)
 
     with open(LOG_FILE_JSON, "w") as f:
@@ -105,6 +127,8 @@ def check_cpu_alert(cpu):
 # ---------------- MAIN LOOP ----------------
 def main():
     print("Linux System Monitor Started (Ctrl+C to stop)\n")
+    
+    prev_net_io = None
 
     try:
         while True:
@@ -113,6 +137,7 @@ def main():
             cpu = get_cpu_usage()
             memory = get_memory_usage()
             disk = get_disk_usage()
+            network_data, prev_net_io = get_network_usage(prev_net_io)
             top_processes = get_top_processes()
             alert = check_cpu_alert(cpu)
 
@@ -121,6 +146,7 @@ Time: {timestamp}
 CPU: {cpu} %
 Memory: {memory} %
 Disk: {disk} %
+Network: Up {network_data.get('mb_sent', 0)} MB/s | Down {network_data.get('mb_recv', 0)} MB/s
 """)
 
             if alert:
@@ -128,13 +154,15 @@ Disk: {disk} %
 
             print("Top Processes:")
             for p in top_processes:
-                print(f"{p['pid']} | {p['name']} | {p['cpu_percent']}%")
+                print(f"{p['pid']} | {p['name']} | {p['cpu_percent']}% | {p.get('memory_mb', 0)}MB")
 
             row = {
                 "time": timestamp,
                 "cpu": cpu,
                 "memory": memory,
-                "disk": disk
+                "disk": disk,
+                "network_sent_mb": network_data.get("mb_sent", 0),
+                "network_recv_mb": network_data.get("mb_recv", 0)
             }
 
             row_json = {

@@ -4,5 +4,3667 @@
         "cpu": 3.0,
         "memory": 71.9,
         "disk": 11.1
+    },
+    {
+        "time": "2026-04-15 11:03:00",
+        "cpu": 4.4,
+        "memory": 56.8,
+        "disk": 10.1,
+        "network_sent_mb": 0,
+        "network_recv_mb": 0,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 23.3,
+                "memory_mb": 268.0
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 18.3,
+                "memory_mb": 168.1
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 12.7,
+                "memory_mb": 913.5
+            },
+            {
+                "pid": 650,
+                "name": "Spotlight",
+                "cpu_percent": 3.9,
+                "memory_mb": 110.3
+            },
+            {
+                "pid": 491,
+                "name": "ContextStoreAgent",
+                "cpu_percent": 3.1,
+                "memory_mb": 24.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:07",
+        "cpu": 25.3,
+        "memory": 57.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 1615,
+                "name": "contactsd",
+                "cpu_percent": 48.1,
+                "memory_mb": 30.6
+            },
+            {
+                "pid": 543,
+                "name": "knowledge-agent",
+                "cpu_percent": 28.9,
+                "memory_mb": 33.6
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 27.7,
+                "memory_mb": 169.7
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 13.3,
+                "memory_mb": 287.9
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 12.7,
+                "memory_mb": 914.0
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:14",
+        "cpu": 4.8,
+        "memory": 56.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 789.5
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.5,
+                "memory_mb": 289.1
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 2.2,
+                "memory_mb": 164.7
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.0
+            },
+            {
+                "pid": 410,
+                "name": "cfprefsd",
+                "cpu_percent": 0.9,
+                "memory_mb": 9.8
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:21",
+        "cpu": 6.3,
+        "memory": 56.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 25.7,
+                "memory_mb": 295.5
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.1,
+                "memory_mb": 789.5
+            },
+            {
+                "pid": 573,
+                "name": "duetexpertd",
+                "cpu_percent": 1.7,
+                "memory_mb": 56.7
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.0
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.3,
+                "memory_mb": 173.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:28",
+        "cpu": 6.3,
+        "memory": 56.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 789.5
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.7,
+                "memory_mb": 302.0
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 2.2,
+                "memory_mb": 164.9
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.1
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:35",
+        "cpu": 2.7,
+        "memory": 57.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 20.0,
+                "memory_mb": 304.7
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.5,
+                "memory_mb": 1237.3
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 2.2,
+                "memory_mb": 173.3
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.9,
+                "memory_mb": 529.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:42",
+        "cpu": 15.4,
+        "memory": 58.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.1,
+                "memory_mb": 1237.3
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.7,
+                "memory_mb": 305.4
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.8,
+                "memory_mb": 165.8
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.1
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:49",
+        "cpu": 4.3,
+        "memory": 57.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1237.3
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 6.0,
+                "memory_mb": 309.1
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 1.8,
+                "memory_mb": 100.4
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.1
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.1,
+                "memory_mb": 165.0
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:03:56",
+        "cpu": 5.8,
+        "memory": 57.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 24.8,
+                "memory_mb": 309.1
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1110.4
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 3.3,
+                "memory_mb": 167.4
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.2
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.7,
+                "memory_mb": 100.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:03",
+        "cpu": 3.7,
+        "memory": 57.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1110.5
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.3,
+                "memory_mb": 312.0
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 2.1,
+                "memory_mb": 164.9
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.2
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.1,
+                "memory_mb": 530.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:10",
+        "cpu": 4.0,
+        "memory": 57.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 22.2,
+                "memory_mb": 322.9
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.5,
+                "memory_mb": 1110.5
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 2.4,
+                "memory_mb": 173.4
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.2
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:17",
+        "cpu": 13.7,
+        "memory": 57.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1110.5
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.5,
+                "memory_mb": 329.2
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.2
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.1,
+                "memory_mb": 169.6
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:24",
+        "cpu": 3.9,
+        "memory": 57.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1110.5
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.6,
+                "memory_mb": 329.7
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.6,
+                "memory_mb": 196.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.2
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.2,
+                "memory_mb": 164.9
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:31",
+        "cpu": 6.6,
+        "memory": 57.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 22.7,
+                "memory_mb": 330.7
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 1110.6
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 3.3,
+                "memory_mb": 167.4
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.3
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.7,
+                "memory_mb": 100.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:38",
+        "cpu": 2.9,
+        "memory": 57.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1110.6
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.4,
+                "memory_mb": 336.7
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 2.2,
+                "memory_mb": 165.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.3
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:45",
+        "cpu": 2.9,
+        "memory": 57.3,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 25.3,
+                "memory_mb": 337.0
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.3,
+                "memory_mb": 1110.7
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 2.4,
+                "memory_mb": 173.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.3
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.7,
+                "memory_mb": 532.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:52",
+        "cpu": 12.6,
+        "memory": 57.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1110.8
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.7,
+                "memory_mb": 338.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.3
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.3,
+                "memory_mb": 169.6
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:04:59",
+        "cpu": 4.4,
+        "memory": 57.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1110.8
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.3,
+                "memory_mb": 338.8
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 1.5,
+                "memory_mb": 100.6
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.3
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.0,
+                "memory_mb": 164.8
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:06",
+        "cpu": 6.5,
+        "memory": 57.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 20.2,
+                "memory_mb": 339.6
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1110.8
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 3.2,
+                "memory_mb": 167.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.3
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:13",
+        "cpu": 3.5,
+        "memory": 57.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 1110.9
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.2,
+                "memory_mb": 340.0
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.7,
+                "memory_mb": 165.1
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.3
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:21",
+        "cpu": 8.3,
+        "memory": 58.0,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 27.1,
+                "memory_mb": 340.3
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 16.6,
+                "memory_mb": 169.9
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.8,
+                "memory_mb": 1111.0
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 4.0,
+                "memory_mb": 455.4
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.7,
+                "memory_mb": 23.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:28",
+        "cpu": 16.4,
+        "memory": 57.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 88.9,
+                "memory_mb": 1227.9
+            },
+            {
+                "pid": 3005,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 76.5,
+                "memory_mb": 300.3
+            },
+            {
+                "pid": 2890,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 61.3,
+                "memory_mb": 392.0
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 24.8,
+                "memory_mb": 179.8
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 20.6,
+                "memory_mb": 465.2
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:35",
+        "cpu": 29.0,
+        "memory": 57.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.6,
+        "network_recv_mb": 0.61,
+        "top_processes": [
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 73.9,
+                "memory_mb": 335.8
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 32.9,
+                "memory_mb": 532.3
+            },
+            {
+                "pid": 3005,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 27.0,
+                "memory_mb": 431.8
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 23.9,
+                "memory_mb": 184.6
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 13.9,
+                "memory_mb": 1236.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:42",
+        "cpu": 3.9,
+        "memory": 58.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 28.8,
+                "memory_mb": 537.2
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1121.9
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.5,
+                "memory_mb": 123.5
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 1.4,
+                "memory_mb": 167.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:49",
+        "cpu": 16.9,
+        "memory": 56.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 573,
+                "name": "duetexpertd",
+                "cpu_percent": 98.6,
+                "memory_mb": 60.8
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.1,
+                "memory_mb": 1121.9
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 1.9,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.9,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.6,
+                "memory_mb": 537.9
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:05:56",
+        "cpu": 7.2,
+        "memory": 56.4,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 26.3,
+                "memory_mb": 539.6
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.7,
+                "memory_mb": 1013.0
+            },
+            {
+                "pid": 573,
+                "name": "duetexpertd",
+                "cpu_percent": 2.4,
+                "memory_mb": 61.3
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 1.8,
+                "memory_mb": 314.4
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:03",
+        "cpu": 4.3,
+        "memory": 58.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1013.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.4,
+                "memory_mb": 539.9
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 0.9,
+                "memory_mb": 167.7
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.7,
+                "memory_mb": 125.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:10",
+        "cpu": 8.4,
+        "memory": 56.7,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.3,
+                "memory_mb": 1013.1
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 4.5,
+                "memory_mb": 318.0
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.6,
+                "memory_mb": 539.9
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 909,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 0.8,
+                "memory_mb": 124.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:17",
+        "cpu": 3.3,
+        "memory": 56.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1013.1
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.4,
+                "memory_mb": 539.9
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.1,
+                "memory_mb": 124.2
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:24",
+        "cpu": 5.9,
+        "memory": 56.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 14.5,
+                "memory_mb": 268.1
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.5,
+                "memory_mb": 1013.1
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.7,
+                "memory_mb": 540.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 3412,
+                "name": "mdworker_shared",
+                "cpu_percent": 1.3,
+                "memory_mb": 25.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:31",
+        "cpu": 5.1,
+        "memory": 57.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1272.0
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 2.7,
+                "memory_mb": 540.1
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 2.0,
+                "memory_mb": 322.3
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 1.3,
+                "memory_mb": 468.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:38",
+        "cpu": 4.3,
+        "memory": 57.7,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1272.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.4,
+                "memory_mb": 540.1
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 0.7,
+                "memory_mb": 309.9
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.6,
+                "memory_mb": 124.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:45",
+        "cpu": 21.2,
+        "memory": 60.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.06,
+        "network_recv_mb": 0.03,
+        "top_processes": [
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 32.4,
+                "memory_mb": 172.8
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 30.2,
+                "memory_mb": 331.0
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.8,
+                "memory_mb": 1272.0
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 4.0,
+                "memory_mb": 467.8
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.7,
+                "memory_mb": 23.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:52",
+        "cpu": 13.8,
+        "memory": 57.4,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 30.0,
+                "memory_mb": 173.0
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 13.6,
+                "memory_mb": 536.5
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.9,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 11.8,
+                "memory_mb": 336.4
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 2.9,
+                "memory_mb": 467.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:06:59",
+        "cpu": 16.0,
+        "memory": 57.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.12,
+        "network_recv_mb": 0.08,
+        "top_processes": [
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 32.4,
+                "memory_mb": 354.5
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 28.0,
+                "memory_mb": 173.6
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 12.9,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 6.0,
+                "memory_mb": 553.8
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 2.6,
+                "memory_mb": 467.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:06",
+        "cpu": 9.1,
+        "memory": 57.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.12,
+        "network_recv_mb": 0.06,
+        "top_processes": [
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 22.4,
+                "memory_mb": 596.8
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 12.0,
+                "memory_mb": 310.9
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.8,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 6.0,
+                "memory_mb": 130.2
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 2.0,
+                "memory_mb": 270.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:13",
+        "cpu": 8.9,
+        "memory": 58.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.29,
+        "network_recv_mb": 0.08,
+        "top_processes": [
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 35.7,
+                "memory_mb": 172.3
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.3,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 11.0,
+                "memory_mb": 365.2
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 2.3,
+                "memory_mb": 124.2
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.5,
+                "memory_mb": 587.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:20",
+        "cpu": 7.2,
+        "memory": 56.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.16,
+        "network_recv_mb": 0.07,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.7,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 573,
+                "name": "duetexpertd",
+                "cpu_percent": 7.0,
+                "memory_mb": 61.2
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 3.5,
+                "memory_mb": 371.9
+            },
+            {
+                "pid": 482,
+                "name": "BiomeAgent",
+                "cpu_percent": 3.1,
+                "memory_mb": 17.1
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 2.5,
+                "memory_mb": 588.8
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:27",
+        "cpu": 2.9,
+        "memory": 56.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.15,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.8,
+                "memory_mb": 592.9
+            },
+            {
+                "pid": 909,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 0.7,
+                "memory_mb": 123.7
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:34",
+        "cpu": 2.6,
+        "memory": 56.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.1,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.8,
+                "memory_mb": 588.9
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.3
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.5,
+                "memory_mb": 122.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:41",
+        "cpu": 5.8,
+        "memory": 56.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.11,
+        "network_recv_mb": 0.09,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.2,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 2.0,
+                "memory_mb": 588.2
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 1.9,
+                "memory_mb": 325.6
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:48",
+        "cpu": 4.7,
+        "memory": 56.3,
+        "disk": 10.1,
+        "network_sent_mb": 0.14,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 12.6,
+                "memory_mb": 460.4
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1143.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.2,
+                "memory_mb": 587.9
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.7,
+                "memory_mb": 123.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:07:55",
+        "cpu": 15.2,
+        "memory": 56.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.07,
+        "network_recv_mb": 0.07,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 62.1,
+                "memory_mb": 1175.1
+            },
+            {
+                "pid": 2798,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 50.4,
+                "memory_mb": 311.6
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 13.2,
+                "memory_mb": 327.2
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 6.0,
+                "memory_mb": 586.3
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 3.0,
+                "memory_mb": 125.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:02",
+        "cpu": 4.8,
+        "memory": 56.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.25,
+        "network_recv_mb": 0.08,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.4,
+                "memory_mb": 1175.0
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 6.4,
+                "memory_mb": 591.3
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 6.4,
+                "memory_mb": 211.2
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.9,
+                "memory_mb": 125.4
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 1.6,
+                "memory_mb": 306.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:09",
+        "cpu": 2.9,
+        "memory": 56.4,
+        "disk": 10.1,
+        "network_sent_mb": 0.21,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 15.6,
+                "memory_mb": 260.3
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.4,
+                "memory_mb": 1175.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 1.5,
+                "memory_mb": 100.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.0,
+                "memory_mb": 592.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:16",
+        "cpu": 2.6,
+        "memory": 56.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.25,
+        "network_recv_mb": 0.08,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 1175.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.6,
+                "memory_mb": 597.7
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.5,
+                "memory_mb": 211.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:23",
+        "cpu": 2.8,
+        "memory": 56.4,
+        "disk": 10.1,
+        "network_sent_mb": 0.2,
+        "network_recv_mb": 0.07,
+        "top_processes": [
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 33.1,
+                "memory_mb": 598.0
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1175.0
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 4.1,
+                "memory_mb": 211.4
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.4
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.3,
+                "memory_mb": 125.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:30",
+        "cpu": 5.4,
+        "memory": 56.4,
+        "disk": 10.1,
+        "network_sent_mb": 0.15,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 1175.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.6,
+                "memory_mb": 598.1
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.6,
+                "memory_mb": 211.4
+            },
+            {
+                "pid": 909,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 0.5,
+                "memory_mb": 123.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:37",
+        "cpu": 3.4,
+        "memory": 56.3,
+        "disk": 10.1,
+        "network_sent_mb": 0.2,
+        "network_recv_mb": 0.07,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1175.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.6,
+                "memory_mb": 598.5
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.4
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.5,
+                "memory_mb": 125.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:44",
+        "cpu": 4.7,
+        "memory": 56.3,
+        "disk": 10.1,
+        "network_sent_mb": 0.06,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1175.1
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.7,
+                "memory_mb": 125.7
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.6,
+                "memory_mb": 598.6
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:51",
+        "cpu": 2.4,
+        "memory": 56.4,
+        "disk": 10.1,
+        "network_sent_mb": 0.08,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1175.1
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.6,
+                "memory_mb": 126.1
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.4,
+                "memory_mb": 598.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:08:58",
+        "cpu": 2.3,
+        "memory": 57.0,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.7,
+                "memory_mb": 1316.9
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.8,
+                "memory_mb": 598.7
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.1,
+                "memory_mb": 126.2
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.8,
+                "memory_mb": 262.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:05",
+        "cpu": 2.0,
+        "memory": 56.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1316.9
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.6,
+                "memory_mb": 126.2
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.4,
+                "memory_mb": 100.4
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.4,
+                "memory_mb": 598.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:13",
+        "cpu": 2.9,
+        "memory": 56.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.0,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1316.9
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 0.8,
+                "memory_mb": 460.2
+            },
+            {
+                "pid": 1867,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 0.6,
+                "memory_mb": 684.9
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.6,
+                "memory_mb": 126.3
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:20",
+        "cpu": 3.1,
+        "memory": 57.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.18,
+        "network_recv_mb": 0.12,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 1449.7
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.7,
+                "memory_mb": 600.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.7,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.9,
+                "memory_mb": 262.7
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.7,
+                "memory_mb": 126.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:27",
+        "cpu": 2.8,
+        "memory": 57.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.19,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.4,
+                "memory_mb": 1345.5
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 3.9,
+                "memory_mb": 335.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.0,
+                "memory_mb": 600.6
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:34",
+        "cpu": 3.9,
+        "memory": 56.7,
+        "disk": 10.1,
+        "network_sent_mb": 0.17,
+        "network_recv_mb": 0.09,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1345.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.6,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.0,
+                "memory_mb": 600.1
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.5,
+                "memory_mb": 125.8
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:41",
+        "cpu": 2.6,
+        "memory": 56.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.23,
+        "network_recv_mb": 0.09,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.3,
+                "memory_mb": 1125.8
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 5.3,
+                "memory_mb": 337.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.8,
+                "memory_mb": 600.8
+            },
+            {
+                "pid": 909,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 0.7,
+                "memory_mb": 123.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:48",
+        "cpu": 4.0,
+        "memory": 56.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.15,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1125.8
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.8,
+                "memory_mb": 600.8
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.5,
+                "memory_mb": 125.8
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:09:55",
+        "cpu": 2.5,
+        "memory": 56.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.12,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 15.3,
+                "memory_mb": 262.8
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.5,
+                "memory_mb": 1125.8
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 6.2,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 4.9,
+                "memory_mb": 600.8
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:02",
+        "cpu": 2.5,
+        "memory": 56.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.28,
+        "network_recv_mb": 0.1,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1125.8
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.3,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.3,
+                "memory_mb": 144.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:09",
+        "cpu": 3.1,
+        "memory": 56.0,
+        "disk": 10.1,
+        "network_sent_mb": 0.12,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 1125.8
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 1.7,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.6,
+                "memory_mb": 264.4
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.5,
+                "memory_mb": 213.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:16",
+        "cpu": 2.0,
+        "memory": 56.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.03,
+        "network_recv_mb": 0.0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 170.9,
+                "memory_mb": 1199.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.5,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 1944,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.5,
+                "memory_mb": 97.4
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.5,
+                "memory_mb": 265.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:23",
+        "cpu": 2.8,
+        "memory": 56.4,
+        "disk": 10.1,
+        "network_sent_mb": 0.06,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.8,
+                "memory_mb": 1199.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.6,
+                "memory_mb": 600.9
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.5,
+                "memory_mb": 126.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:30",
+        "cpu": 4.7,
+        "memory": 55.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.21,
+        "network_recv_mb": 0.08,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1052.0
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 1.3,
+                "memory_mb": 600.9
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 0.9,
+                "memory_mb": 126.0
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:37",
+        "cpu": 4.6,
+        "memory": 55.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.14,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.1,
+                "memory_mb": 1052.0
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 3.4,
+                "memory_mb": 601.0
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 2.3,
+                "memory_mb": 126.1
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 0.7,
+                "memory_mb": 329.8
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:44",
+        "cpu": 2.8,
+        "memory": 56.5,
+        "disk": 10.1,
+        "network_sent_mb": 0.23,
+        "network_recv_mb": 0.1,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 10.9,
+                "memory_mb": 1052.8
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 0.3,
+                "memory_mb": 460.2
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.3,
+                "memory_mb": 213.6
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:51",
+        "cpu": 2.1,
+        "memory": 56.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.12,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.0,
+                "memory_mb": 1052.8
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.5
+            },
+            {
+                "pid": 478,
+                "name": "ControlCenter",
+                "cpu_percent": 0.7,
+                "memory_mb": 86.0
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.5,
+                "memory_mb": 213.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:10:58",
+        "cpu": 17.4,
+        "memory": 59.3,
+        "disk": 10.1,
+        "network_sent_mb": 0.07,
+        "network_recv_mb": 0.02,
+        "top_processes": [
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 33.4,
+                "memory_mb": 169.8
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 29.8,
+                "memory_mb": 340.2
+            },
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.7,
+                "memory_mb": 898.8
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 5.2,
+                "memory_mb": 460.3
+            },
+            {
+                "pid": 3149,
+                "name": "Python",
+                "cpu_percent": 1.9,
+                "memory_mb": 23.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:09",
+        "cpu": 5.4,
+        "memory": 56.8,
+        "disk": 10.1,
+        "network_sent_mb": 0,
+        "network_recv_mb": 0,
+        "top_processes": [
+            {
+                "pid": 2927,
+                "name": "node",
+                "cpu_percent": 11.5,
+                "memory_mb": 784.0
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 5.4,
+                "memory_mb": 603.1
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 2.1,
+                "memory_mb": 307.2
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 1.5,
+                "memory_mb": 23.0
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 1.4,
+                "memory_mb": 100.7
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.0,
+                "memory_mb": 131.7
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.3,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 0.3,
+                "memory_mb": 144.8
+            },
+            {
+                "pid": 909,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 0.2,
+                "memory_mb": 123.5
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.2,
+                "memory_mb": 265.3
+            },
+            {
+                "pid": 573,
+                "name": "duetexpertd",
+                "cpu_percent": 0.1,
+                "memory_mb": 61.2
+            },
+            {
+                "pid": 710,
+                "name": "spotlightknowledged",
+                "cpu_percent": 0.1,
+                "memory_mb": 14.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:16",
+        "cpu": 8.2,
+        "memory": 54.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 31.7,
+                "memory_mb": 357.7
+            },
+            {
+                "pid": 4066,
+                "name": "node",
+                "cpu_percent": 26.7,
+                "memory_mb": 244.2
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 23.6,
+                "memory_mb": 603.0
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 22.7,
+                "memory_mb": 171.6
+            },
+            {
+                "pid": 482,
+                "name": "BiomeAgent",
+                "cpu_percent": 4.9,
+                "memory_mb": 17.1
+            },
+            {
+                "pid": 650,
+                "name": "Spotlight",
+                "cpu_percent": 4.6,
+                "memory_mb": 110.8
+            },
+            {
+                "pid": 491,
+                "name": "ContextStoreAgent",
+                "cpu_percent": 3.8,
+                "memory_mb": 24.7
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 3.8,
+                "memory_mb": 265.3
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 3.6,
+                "memory_mb": 460.8
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 3.2,
+                "memory_mb": 307.7
+            },
+            {
+                "pid": 1944,
+                "name": "Antigravity Helper",
+                "cpu_percent": 2.2,
+                "memory_mb": 97.9
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 1.8,
+                "memory_mb": 23.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:23",
+        "cpu": 16.7,
+        "memory": 58.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.6,
+        "network_recv_mb": 0.6,
+        "top_processes": [
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 26.2,
+                "memory_mb": 170.7
+            },
+            {
+                "pid": 3396,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 8.3,
+                "memory_mb": 408.0
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 7.0,
+                "memory_mb": 458.2
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.8,
+                "memory_mb": 23.6
+            },
+            {
+                "pid": 4080,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 2.7,
+                "memory_mb": 163.2
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.5,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.4,
+                "memory_mb": 128.0
+            },
+            {
+                "pid": 3981,
+                "name": "mdworker_shared",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.9
+            },
+            {
+                "pid": 3982,
+                "name": "mdworker_shared",
+                "cpu_percent": 1.4,
+                "memory_mb": 23.9
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.7,
+                "memory_mb": 100.7
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1944,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.5,
+                "memory_mb": 94.4
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:30",
+        "cpu": 4.4,
+        "memory": 55.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 13.5,
+                "memory_mb": 459.4
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 10.2,
+                "memory_mb": 169.5
+            },
+            {
+                "pid": 500,
+                "name": "WindowManager",
+                "cpu_percent": 6.2,
+                "memory_mb": 27.3
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.5,
+                "memory_mb": 23.6
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.6,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.4,
+                "memory_mb": 128.0
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 1.2,
+                "memory_mb": 263.1
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 0.7,
+                "memory_mb": 307.0
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.6
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.4,
+                "memory_mb": 100.8
+            },
+            {
+                "pid": 541,
+                "name": "NotificationCenter",
+                "cpu_percent": 0.3,
+                "memory_mb": 67.5
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.2,
+                "memory_mb": 542.1
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:37",
+        "cpu": 16.4,
+        "memory": 56.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.59,
+        "network_recv_mb": 0.59,
+        "top_processes": [
+            {
+                "pid": 4099,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 31.7,
+                "memory_mb": 304.1
+            },
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 31.1,
+                "memory_mb": 170.1
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 4.0,
+                "memory_mb": 459.9
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.4,
+                "memory_mb": 23.6
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.6,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.6,
+                "memory_mb": 128.0
+            },
+            {
+                "pid": 573,
+                "name": "duetexpertd",
+                "cpu_percent": 1.5,
+                "memory_mb": 60.4
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 1.0,
+                "memory_mb": 263.1
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.9,
+                "memory_mb": 542.4
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.8
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 0.3,
+                "memory_mb": 307.0
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:44",
+        "cpu": 14.1,
+        "memory": 56.6,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 908,
+                "name": "Google Chrome Helper",
+                "cpu_percent": 32.5,
+                "memory_mb": 167.6
+            },
+            {
+                "pid": 4099,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 8.8,
+                "memory_mb": 311.3
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 4.7,
+                "memory_mb": 460.0
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 4.1,
+                "memory_mb": 543.4
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.2,
+                "memory_mb": 23.6
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 2.1,
+                "memory_mb": 307.1
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.5,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.4,
+                "memory_mb": 128.0
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.7,
+                "memory_mb": 263.1
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1939,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 0.5,
+                "memory_mb": 163.7
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.4,
+                "memory_mb": 100.9
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:51",
+        "cpu": 5.1,
+        "memory": 56.3,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.8,
+                "memory_mb": 23.7
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 3.4,
+                "memory_mb": 547.8
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 1.8,
+                "memory_mb": 307.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.8,
+                "memory_mb": 129.0
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.4,
+                "memory_mb": 128.0
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.3,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 4079,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 0.9,
+                "memory_mb": 132.4
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.7,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.7,
+                "memory_mb": 263.3
+            },
+            {
+                "pid": 936,
+                "name": "Siri",
+                "cpu_percent": 0.6,
+                "memory_mb": 25.7
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.5,
+                "memory_mb": 100.9
+            },
+            {
+                "pid": 509,
+                "name": "com.apple.hiservices-xpcservice",
+                "cpu_percent": 0.3,
+                "memory_mb": 4.0
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:11:58",
+        "cpu": 3.9,
+        "memory": 55.2,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.03,
+        "top_processes": [
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.5,
+                "memory_mb": 23.7
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 3.3,
+                "memory_mb": 549.0
+            },
+            {
+                "pid": 4099,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 3.0,
+                "memory_mb": 316.5
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.4,
+                "memory_mb": 127.8
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.2,
+                "memory_mb": 130.2
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.1,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.7,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 0.7,
+                "memory_mb": 307.3
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.6,
+                "memory_mb": 264.3
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.9
+            },
+            {
+                "pid": 936,
+                "name": "Siri",
+                "cpu_percent": 0.2,
+                "memory_mb": 25.6
+            },
+            {
+                "pid": 478,
+                "name": "ControlCenter",
+                "cpu_percent": 0.1,
+                "memory_mb": 85.7
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:12:06",
+        "cpu": 9.6,
+        "memory": 55.1,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 4.4,
+                "memory_mb": 552.1
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.8,
+                "memory_mb": 23.7
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 3.7,
+                "memory_mb": 307.4
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 2.0,
+                "memory_mb": 127.8
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.4,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.3,
+                "memory_mb": 130.4
+            },
+            {
+                "pid": 936,
+                "name": "Siri",
+                "cpu_percent": 0.7,
+                "memory_mb": 25.6
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.7,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 0.6,
+                "memory_mb": 264.5
+            },
+            {
+                "pid": 509,
+                "name": "com.apple.hiservices-xpcservice",
+                "cpu_percent": 0.4,
+                "memory_mb": 4.0
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.4,
+                "memory_mb": 100.9
+            },
+            {
+                "pid": 392,
+                "name": "distnoted",
+                "cpu_percent": 0.2,
+                "memory_mb": 4.8
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:12:13",
+        "cpu": 5.2,
+        "memory": 54.8,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 4099,
+                "name": "Google Chrome Helper (Renderer)",
+                "cpu_percent": 9.1,
+                "memory_mb": 283.6
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 5.3,
+                "memory_mb": 309.2
+            },
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 4.7,
+                "memory_mb": 552.2
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.1,
+                "memory_mb": 23.7
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 1.6,
+                "memory_mb": 123.5
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.4,
+                "memory_mb": 130.5
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.3,
+                "memory_mb": 213.5
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 1.0,
+                "memory_mb": 264.6
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.9
+            },
+            {
+                "pid": 515,
+                "name": "Google Chrome",
+                "cpu_percent": 0.4,
+                "memory_mb": 460.1
+            },
+            {
+                "pid": 576,
+                "name": "Finder",
+                "cpu_percent": 0.3,
+                "memory_mb": 95.5
+            }
+        ]
+    },
+    {
+        "time": "2026-04-15 11:12:20",
+        "cpu": 3.4,
+        "memory": 51.9,
+        "disk": 10.1,
+        "network_sent_mb": 0.01,
+        "network_recv_mb": 0.01,
+        "top_processes": [
+            {
+                "pid": 1925,
+                "name": "Antigravity Helper (Renderer)",
+                "cpu_percent": 9.1,
+                "memory_mb": 552.9
+            },
+            {
+                "pid": 1923,
+                "name": "Antigravity Helper (GPU)",
+                "cpu_percent": 3.8,
+                "memory_mb": 128.8
+            },
+            {
+                "pid": 1945,
+                "name": "Antigravity Helper (Plugin)",
+                "cpu_percent": 3.8,
+                "memory_mb": 265.1
+            },
+            {
+                "pid": 3969,
+                "name": "Python",
+                "cpu_percent": 3.4,
+                "memory_mb": 23.7
+            },
+            {
+                "pid": 1920,
+                "name": "Electron",
+                "cpu_percent": 1.6,
+                "memory_mb": 309.4
+            },
+            {
+                "pid": 2390,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.3,
+                "memory_mb": 130.8
+            },
+            {
+                "pid": 1938,
+                "name": "language_server_macos_arm",
+                "cpu_percent": 1.2,
+                "memory_mb": 213.6
+            },
+            {
+                "pid": 1981,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.8,
+                "memory_mb": 101.0
+            },
+            {
+                "pid": 937,
+                "name": "mongod",
+                "cpu_percent": 0.6,
+                "memory_mb": 100.5
+            },
+            {
+                "pid": 1944,
+                "name": "Antigravity Helper",
+                "cpu_percent": 0.6,
+                "memory_mb": 94.9
+            },
+            {
+                "pid": 936,
+                "name": "Siri",
+                "cpu_percent": 0.4,
+                "memory_mb": 25.6
+            },
+            {
+                "pid": 2674,
+                "name": "zsh",
+                "cpu_percent": 0.3,
+                "memory_mb": 3.3
+            }
+        ]
     }
 ]
