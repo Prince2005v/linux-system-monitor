@@ -4,6 +4,8 @@ import { promisify } from 'util';
 
 const execAsync = promisify(exec);
 
+export const dynamic = 'force-dynamic';
+
 export async function POST(request: Request) {
   try {
     const { pid } = await request.json();
